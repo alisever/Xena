@@ -11,8 +11,8 @@ Using google translate, I was able to work out most of what was going on. I most
 
 ### Rough Summary
 
-I 
+I chose to use Tarki's system of axioms, and it turns out the geocoq also used tarski. I went through the book above, chapter by chapter proving everything. Some cases where they prove general results, I only proved in two dimensions, since that was all I was interested about. I tried to stay computable where possible, but the 11th axiom (regarding continuity of a segment) is of course noncomputable. I know I did not do this in the most elegant way, and I hope it can be improved in the future.
 
-
+I named my theorems the same as in the book, so theorem 13.1 is thirteen1 in my code. I went through most of the early chapters fairly quickly, but I struggled a lot when I got to chapter 13. After introducing the cosine function, the book uses it to prove theorems on similarity. I would have liked to have been able to identify my lengths with the positive reals, but that surpasses my lean knowledge.
 
 **Message me on zulip (ali sever) if there's anything that needs further explanation.**
